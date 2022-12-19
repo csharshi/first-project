@@ -4,6 +4,5 @@
 #print the 1st program
 echo "program to print the number"
 echo "the first number for addition is $1"
-echo "the second number for addition is $2"
-sum=$(($1+$2))
-echo "the sum of 2 number is $sum"
+echo "the second number for addition is $echo " by first param,i will creat the directory"
+touch $1
