@@ -1,12 +1,11 @@
-if[-d "$dir"]
-echo "directory exist $dir"
-else:
-echo "error $dir not found"
-fi
-if [-f "$file"]
-echo "file exist $file"
-else:
-echo "file $file not found"
+#!/bin/bash
+echo "enter a directory"
+read dir
+if [ -d " $dir " ]
+then
+echo "exist  directory"
+else
+echo "does not exists"
 fi
 
 

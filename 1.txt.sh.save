@@ -7,12 +7,8 @@ echo "the first number for addition is $1"
 echo "the second number for addition is $2"
 sum=$(($1+$2))
 echo "the sum of 2 number is $sum"
-sub=$(($1-$2))
-echo "the sub of 2 number is $sub"
-mult=$(($1*$2))
-echo "the mult of 2 number is $mult"
-div=$(($1/$2))
-echo "the div of 2 number is $div"
-mod=$(($1%$2))
-echo "the mod of 2 number is $mod"
+echo "the first number for subs is $1"
+echo "the second number for subs is $2"
+subs=$(($1-$2))
+echo "the sum of 2 number is $sum"
 
